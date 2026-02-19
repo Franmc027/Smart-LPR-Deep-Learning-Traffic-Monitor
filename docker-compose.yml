@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  capturador:
+    build: ./Capturador
+    container_name: maquina_captura
+    volumes:
+      # Conectamos la carpeta física 'mis_fotos' con el interior del contenedor
+      - ./mis_fotos:/app/capturas
+    restart: always
+
+  analizador:
+    build: ./Analizador
+    container_name: maquina_ia
+    volumes:
+      # Conectamos la MISMA carpeta para que la IA vea lo que guarda el capturador
+      - ./mis_fotos:/app/capturas
+    depends_on:
+      - capturador

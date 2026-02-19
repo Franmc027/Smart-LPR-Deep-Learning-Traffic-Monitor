@@ -1,0 +1,12 @@
+# IA y Redes Neuronales
+ultralytics>=8.0.0
+torch
+torchvision
+
+# Procesamiento de Imagen y OCR
+opencv-python-headless
+easyocr
+numpy
+
+# Utilidades
+datetime

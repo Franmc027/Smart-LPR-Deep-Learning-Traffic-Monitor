@@ -1,0 +1,4 @@
+# Captura de Stream y Vídeo
+opencv-python-headless
+yt-dlp
+numpy
