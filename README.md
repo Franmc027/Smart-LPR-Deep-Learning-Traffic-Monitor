@@ -1,6 +1,6 @@
 # Smart-LPR-Deep-Learning-Traffic-Monitor
 
-**WiseTurtle LPR** es un sistema de monitorización de tráfico inteligente diseñado para detectar vehículos, clasificar su carrocería, identificar su color y leer matrículas en tiempo real. 
+**Smart-LPR-Deep-Learning-Traffic-Monitor** es un sistema de monitorización de tráfico inteligente diseñado para detectar vehículos, clasificar su carrocería, identificar su color y leer matrículas en tiempo real. 
 
 Este proyecto nace con la filosofía de la **"Tortuga Sabia"**: maximizar la precisión de la Inteligencia Artificial mediante técnicas avanzadas de procesamiento de imagen, permitiendo que funcione de forma robusta incluso en entornos sin tarjeta gráfica (Solo CPU).
 
