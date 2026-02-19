@@ -27,16 +27,7 @@ Este proyecto nace con la filosofía de la **"Tortuga Sabia"**: maximizar la pre
 
 ---
 
-## 📁 Estructura del Proyecto
+## Diagrama del proyecto
 
-```text
-.
-├── Analizador/
-│   ├── brain.py          # El "Cerebro" con la lógica de IA y Visión
-│   └── Dockerfile        # Entorno con PyTorch y dependencias
-├── Capturador/
-│   ├── capturador.py     # Servicio de extracción de frames de streaming
-│   └── Dockerfile        # Entorno ligero de captura
-├── capturas/             # Volumen compartido de intercambio de imágenes
-│   └── Info_Coches/      # Destino final de los reportes CSV
-└── docker-compose.yml    # Orquestación de los contenedores
+
+<img width="684" height="304" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/225ccbab-81a3-45f6-bdc7-7003a65aa653" />
